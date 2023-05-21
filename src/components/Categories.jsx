@@ -1,5 +1,8 @@
 import styled from "styled-components";
 import { mobile } from "../responsive";
+import {categories} from "../data.js";
+import CategoryItem from "./CategoryItem";
+
 
 const Container = styled.div`
   flex: 1;
@@ -41,16 +44,18 @@ const Button = styled.button`
     font-weight: 600;
 `;
 
-const CategoryItem = ({ item }) => {
+const Categories  = () => {
   return (
     <Container>
-      <Image src={item.img} />
+      {categories.map((category) => (
+        <CategoryItem category={category} key={category.id} />
+      ))}
       <Info>
-        <Title>{item.title}</Title>
+        
         <Button>SHOP NOW</Button>
       </Info>
     </Container>
   );
 };
 
-export default CategoryItem;
+export default Categories;

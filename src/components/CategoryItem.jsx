@@ -1,5 +1,7 @@
 import styled from "styled-components";
 import { mobile } from "../responsive";
+import { categories } from "../data.js";
+
 
 const Container = styled.div`
   flex: 1;
@@ -41,12 +43,12 @@ const Button = styled.button`
     font-weight: 600;
 `;
 
-const CategoryItem = ({ item }) => {
+const CategoryItem = ({ category  }) => {
   return (
     <Container>
-      <Image src={item.img} />
+      <Image src={category.img} />
       <Info>
-        <Title>{item.title}</Title>
+        <Title>{category.title}</Title>
         <Button>SHOP NOW</Button>
       </Info>
     </Container>

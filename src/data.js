@@ -1,7 +1,7 @@
 export const sliderItems = [
     {
       id: 1,
-      img: "https://i.ibb.co/XsdmR2c/1.png",
+      img: "https://www.apetogentleman.com/wp-content/uploads/2021/07/SummerShirtingMain.jpg",
       title: "SUMMER SALE",
       desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
       bg: "f5fafd",
@@ -21,6 +21,7 @@ export const sliderItems = [
       bg: "fbf0f4",
     },
   ];
+  
 
   export const categories = [
     {
@@ -47,7 +48,7 @@ export const sliderItems = [
     },
     {
       id:2,
-      img:"https://cdn.shopify.com/s/files/1/0101/4832/products/Angela_Natural_Tee.png?v=1606780388",
+      img:"https://www.politix.com.au/dw/image/v2/ABBA_PRD/on/demandware.static/-/Sites-politix-master-catalog/default/dwcf2dd408/images/hires/Winter%2021/B1/bp05-camel-1.jpg?sw=2500&sh=3000&sm=cut",
     },
     {
       id:3,
@@ -55,7 +56,7 @@ export const sliderItems = [
     },
     {
       id:4,
-      img:"https://www.burdastyle.com/pub/media/catalog/product/cache/7bd3727382ce0a860b68816435d76e26/107/BUS-PAT-BURTE-1320516/1170x1470_BS_2016_05_132_front.png",
+      img:"https://cdn4.ethoswatches.com/the-watch-guide/wp-content/uploads/2021/06/Watches-Under-2-Lakh.jpg",
     },
     {
       id:5,
@@ -63,11 +64,11 @@ export const sliderItems = [
     },
     {
       id:6,
-      img:"https://d3o2e4jr3mxnm3.cloudfront.net/Rocket-Vintage-Chill-Cap_66374_1_lg.png",
+      img:"https://www.shopz.com.bd/wp-content/uploads/2022/03/SKMEI-1787-Wheels-Rolling-Creative-Watch-Green-300x300.jpg",
     },
     {
       id:7,
-      img:"https://www.vintageindustries.nl/download_front/qympzk1762/2217_Arrow_Jacket_Forest.png",
+      img:"https://fabrilife.com/image-gallery/638741f4b738e-square.jpg",
     },
     {
       id:8,

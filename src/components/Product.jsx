@@ -4,6 +4,8 @@ import {
   ShoppingCartOutlined,
 } from "@material-ui/icons";
 import styled from "styled-components";
+import { useEffect } from "react";
+import { popularProducts } from "../data.js";
 
 const Info = styled.div`
   opacity: 0;
@@ -66,6 +68,7 @@ const Icon = styled.div`
 `;
 
 const Product = ({ items }) => {
+  
   return (
     <Container>
       <Circle />
@@ -82,6 +85,7 @@ const Product = ({ items }) => {
         </Icon>
       </Info>
     </Container>
+  
   );
 };
 
