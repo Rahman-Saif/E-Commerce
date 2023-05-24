@@ -5,6 +5,7 @@ import CategoryItem from "./CategoryItem";
 
 
 const Container = styled.div`
+display:flex;
   flex: 1;
   margin: 3px;
   height: 70vh;
@@ -47,12 +48,17 @@ const Button = styled.button`
 const Categories  = () => {
   return (
     <Container>
+      {/*
       {categories.map((category) => (
         <CategoryItem category={category} key={category.id} />
       ))}
+      */}
+      {categories.map(item=>(
+        <CategoryItem item={item}/>
+      ))}
       <Info>
         
-        <Button>SHOP NOW</Button>
+        
       </Info>
     </Container>
   );

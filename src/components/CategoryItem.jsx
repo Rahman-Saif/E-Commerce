@@ -43,12 +43,12 @@ const Button = styled.button`
     font-weight: 600;
 `;
 
-const CategoryItem = ({ category  }) => {
+const CategoryItem = ({ item  }) => {
   return (
     <Container>
-      <Image src={category.img} />
+      <Image src={item.img} />
       <Info>
-        <Title>{category.title}</Title>
+        <Title>{item.title}</Title>
         <Button>SHOP NOW</Button>
       </Info>
     </Container>
